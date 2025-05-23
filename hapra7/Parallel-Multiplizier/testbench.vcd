@@ -1,0 +1,467 @@
+$date
+  Fri Dec  6 21:19:52 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module parallel_mult_tb $end
+$var reg 4 ! x[3:0] $end
+$var reg 4 " y[3:0] $end
+$var reg 8 # z[7:0] $end
+$scope module parallel_mult_1 $end
+$var reg 4 $ x[3:0] $end
+$var reg 4 % y[3:0] $end
+$var reg 8 & z[7:0] $end
+$var reg 1 ' output1 $end
+$var reg 1 ( output2 $end
+$var reg 1 ) output3 $end
+$var reg 1 * output4 $end
+$var reg 1 + output5 $end
+$var reg 1 , output6 $end
+$var reg 1 - output7 $end
+$var reg 1 . output8 $end
+$var reg 1 / output9 $end
+$var reg 1 0 output10 $end
+$var reg 1 1 output11 $end
+$var reg 1 2 output12 $end
+$var reg 1 3 output13 $end
+$var reg 1 4 output14 $end
+$var reg 1 5 output15 $end
+$var reg 1 6 output16 $end
+$var reg 1 7 cout_1 $end
+$var reg 1 8 cout_2 $end
+$var reg 1 9 cout_3 $end
+$var reg 1 : cout_4 $end
+$var reg 1 ; cout_5 $end
+$var reg 1 < cout_6 $end
+$var reg 1 = cout_7 $end
+$var reg 1 > cout_8 $end
+$var reg 1 ? cout_9 $end
+$var reg 1 @ cout_10 $end
+$var reg 1 A cout_11 $end
+$var reg 1 B cout_12 $end
+$scope module row_0_0 $end
+$var reg 1 C andgate_in_1 $end
+$var reg 1 D andgate_in_2 $end
+$var reg 1 E andgate_out $end
+$upscope $end
+$scope module row_0_1 $end
+$var reg 1 F andgate_in_1 $end
+$var reg 1 G andgate_in_2 $end
+$var reg 1 H andgate_out $end
+$upscope $end
+$scope module row_0_2 $end
+$var reg 1 I andgate_in_1 $end
+$var reg 1 J andgate_in_2 $end
+$var reg 1 K andgate_out $end
+$upscope $end
+$scope module row_0_3 $end
+$var reg 1 L andgate_in_1 $end
+$var reg 1 M andgate_in_2 $end
+$var reg 1 N andgate_out $end
+$upscope $end
+$scope module row_1_0 $end
+$var reg 1 O a $end
+$var reg 1 P b $end
+$var reg 1 Q c $end
+$var reg 1 R cout $end
+$var reg 1 S sum $end
+$var reg 1 T d $end
+$upscope $end
+$scope module row_1_1 $end
+$var reg 1 U a $end
+$var reg 1 V b $end
+$var reg 1 W c $end
+$var reg 1 X cin $end
+$var reg 1 Y cout $end
+$var reg 1 Z sum $end
+$var reg 1 [ d $end
+$upscope $end
+$scope module row_1_2 $end
+$var reg 1 \ a $end
+$var reg 1 ] b $end
+$var reg 1 ^ c $end
+$var reg 1 _ cin $end
+$var reg 1 ` cout $end
+$var reg 1 a sum $end
+$var reg 1 b d $end
+$upscope $end
+$scope module row_1_3 $end
+$var reg 1 c a $end
+$var reg 1 d b $end
+$var reg 1 e c $end
+$var reg 1 f cout $end
+$var reg 1 g sum $end
+$var reg 1 h d $end
+$upscope $end
+$scope module row_2_0 $end
+$var reg 1 i a $end
+$var reg 1 j b $end
+$var reg 1 k c $end
+$var reg 1 l cout $end
+$var reg 1 m sum $end
+$var reg 1 n d $end
+$upscope $end
+$scope module row_2_1 $end
+$var reg 1 o a $end
+$var reg 1 p b $end
+$var reg 1 q c $end
+$var reg 1 r cin $end
+$var reg 1 s cout $end
+$var reg 1 t sum $end
+$var reg 1 u d $end
+$upscope $end
+$scope module row_2_2 $end
+$var reg 1 v a $end
+$var reg 1 w b $end
+$var reg 1 x c $end
+$var reg 1 y cin $end
+$var reg 1 z cout $end
+$var reg 1 { sum $end
+$var reg 1 | d $end
+$upscope $end
+$scope module row_2_3 $end
+$var reg 1 } a $end
+$var reg 1 !" b $end
+$var reg 1 "" c $end
+$var reg 1 #" cin $end
+$var reg 1 $" cout $end
+$var reg 1 %" sum $end
+$var reg 1 &" d $end
+$upscope $end
+$scope module row_3_0 $end
+$var reg 1 '" a $end
+$var reg 1 (" b $end
+$var reg 1 )" c $end
+$var reg 1 *" cout $end
+$var reg 1 +" sum $end
+$var reg 1 ," d $end
+$upscope $end
+$scope module row_3_1 $end
+$var reg 1 -" a $end
+$var reg 1 ." b $end
+$var reg 1 /" c $end
+$var reg 1 0" cin $end
+$var reg 1 1" cout $end
+$var reg 1 2" sum $end
+$var reg 1 3" d $end
+$upscope $end
+$scope module row_3_2 $end
+$var reg 1 4" a $end
+$var reg 1 5" b $end
+$var reg 1 6" c $end
+$var reg 1 7" cin $end
+$var reg 1 8" cout $end
+$var reg 1 9" sum $end
+$var reg 1 :" d $end
+$upscope $end
+$scope module row_3_3 $end
+$var reg 1 ;" a $end
+$var reg 1 <" b $end
+$var reg 1 =" c $end
+$var reg 1 >" cin $end
+$var reg 1 ?" cout $end
+$var reg 1 @" sum $end
+$var reg 1 A" d $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1010 !
+b1101 "
+b10000010 #
+b1010 $
+b1101 %
+b10000010 &
+0'
+1(
+0)
+1*
+1+
+0,
+1-
+0.
+0/
+00
+11
+12
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+1<
+0=
+0>
+0?
+1@
+1A
+1B
+1C
+0D
+0E
+1F
+1G
+1H
+1I
+0J
+0K
+1L
+1M
+1N
+1O
+0P
+0Q
+0R
+1S
+0T
+0U
+1V
+0W
+0X
+0Y
+0Z
+0[
+1\
+0]
+0^
+0_
+0`
+1a
+0b
+0c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+1k
+0l
+0m
+0n
+1o
+1p
+1q
+0r
+1s
+0t
+1u
+0v
+0w
+1x
+1y
+0z
+1{
+0|
+0}
+1!"
+1""
+0#"
+0$"
+1%"
+1&"
+0'"
+0("
+1)"
+0*"
+0+"
+0,"
+1-"
+1."
+1/"
+00"
+11"
+02"
+13"
+14"
+05"
+16"
+17"
+18"
+09"
+0:"
+0;"
+1<"
+1="
+1>"
+1?"
+0@"
+1A"
+#10000000
+b0111 "
+b01000110 #
+b0111 %
+b01000110 &
+1,
+1.
+1/
+01
+02
+04
+05
+16
+1=
+1>
+0@
+0A
+0B
+1Q
+1W
+1Z
+1[
+1^
+1e
+1g
+1h
+1i
+1m
+1v
+1z
+0{
+1#"
+1$"
+0%"
+0)"
+0-"
+0/"
+01"
+02"
+03"
+04"
+06"
+07"
+08"
+09"
+1;"
+0="
+0>"
+0?"
+1@"
+0A"
+#20000000
+b1001 !
+b1101 "
+b01110101 #
+b1001 $
+b1101 %
+b01110101 &
+1'
+0(
+0+
+0,
+0.
+1/
+10
+01
+12
+03
+14
+15
+16
+0;
+0<
+0=
+0>
+1?
+0B
+1D
+1E
+0G
+0H
+0O
+1P
+0Q
+0S
+0V
+0W
+0Z
+0[
+0^
+0e
+0g
+0h
+0i
+1j
+0l
+1m
+1n
+0p
+0r
+0s
+1t
+0u
+0v
+0y
+0z
+0{
+0#"
+0$"
+1%"
+1'"
+1("
+1)"
+1*"
+0+"
+1,"
+0-"
+0."
+1/"
+10"
+12"
+14"
+16"
+19"
+0;"
+1="
+0?"
+1@"
+1A"
+#30000000
+b0111 "
+b00111111 #
+b0111 %
+b00111111 &
+1+
+1.
+11
+13
+14
+06
+0?
+1Q
+1S
+1T
+1W
+1^
+1e
+1g
+1h
+1v
+1{
+0)"
+0*"
+1+"
+0,"
+1-"
+0/"
+00"
+12"
+06"
+0="
+0@"
+0A"
+#40000000

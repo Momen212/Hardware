@@ -1,0 +1,72 @@
+$date
+  Tue Jan 14 17:30:17 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module aludecoder_tb $end
+$var reg 6 ! funct[5:0] $end
+$var reg 2 " aluop[1:0] $end
+$var reg 3 # alucontrol[2:0] $end
+$scope module alucod $end
+$var reg 6 $ funct[5:0] $end
+$var reg 2 % aluop[1:0] $end
+$var reg 3 & alucontrol[2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000000 !
+b00 "
+b010 #
+b000000 $
+b00 %
+b010 &
+#10000000
+b01 "
+b110 #
+b01 %
+b110 &
+#20000000
+b11 "
+b--- #
+b11 %
+b--- &
+#30000000
+b100000 !
+b010 #
+b100000 $
+b010 &
+#40000000
+b100010 !
+b110 #
+b100010 $
+b110 &
+#50000000
+b100100 !
+b000 #
+b100100 $
+b000 &
+#60000000
+b100101 !
+b001 #
+b100101 $
+b001 &
+#70000000
+b101010 !
+b111 #
+b101010 $
+b111 &
+#80000000
+b000000 !
+b--- #
+b000000 $
+b--- &
+#90000000

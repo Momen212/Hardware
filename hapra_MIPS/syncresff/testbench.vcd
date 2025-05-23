@@ -1,0 +1,61 @@
+$date
+  Tue Jan 14 17:27:57 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module syncresff_tb $end
+$var reg 1 ! reset $end
+$var reg 8 " d[7:0] $end
+$var reg 8 # q[7:0] $end
+$var reg 1 $ clk $end
+$scope module pc $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$var reg 8 ' d[7:0] $end
+$var reg 8 ( q[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+b00000000 "
+bUUUUUUUU #
+0$
+0%
+0&
+b00000000 '
+bUUUUUUUU (
+#10000000
+b00001111 "
+b00001111 #
+1$
+1%
+b00001111 '
+b00001111 (
+#20000000
+0$
+0%
+#30000000
+1!
+b00000000 #
+1&
+b00000000 (
+#40000000
+0!
+0&
+#50000000
+b11001100 "
+b11001100 #
+1$
+1%
+b11001100 '
+b11001100 (
+#60000000
