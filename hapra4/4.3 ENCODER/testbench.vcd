@@ -1,0 +1,41 @@
+$date
+  Wed May 07 22:30:20 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 4 ! i[3:0] $end
+$var reg 2 " y[1:0] $end
+$scope module encoder $end
+$var reg 4 # i[3:0] $end
+$var reg 2 $ y[1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b00 "
+b0001 #
+b00 $
+#10000000
+b0110 !
+b01 "
+b0110 #
+b01 $
+#20000000
+b0101 !
+b0101 #
+#30000000
+b1000 !
+b11 "
+b1000 #
+b11 $
+#40000000
+b1100 !
+b1100 #
+#50000000
+b1011 !
+b1011 #
+#60000000
