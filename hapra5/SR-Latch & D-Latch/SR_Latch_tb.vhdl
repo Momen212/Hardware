@@ -19,9 +19,6 @@ signal S, Q, R, not_Q : std_logic;
 begin
 
 sr1 : SR_Latch port map(S => S, R => R,Q => Q, not_Q => not_Q);
-sr2 : SR_Latch port map(S => S, R => R,Q => Q, not_Q => not_Q);
-sr3 : SR_Latch port map(S => S, R => R,Q => Q, not_Q => not_Q);
-sr4 : SR_Latch port map(S => S, R => R,Q => Q, not_Q => not_Q);
 
     process begin
         
